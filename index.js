@@ -19,8 +19,10 @@ if (typeof badRobot !== "undefined") {
     "It looks like you connected a robot that needs updating. It has the"
     + " ID <b>" + badRobot.toUpperCase() + "</b> printed on its face, above"
     + " the 'A' and 'B' buttons. <b>IMG HERE</b>."
-    + " <p>Follow the instructions here to get the little guy ready for"
-    + " action. Don't forget to plug it in with a USB cable!";
+    + " <p>Follow the instructions on this page to get the little guy ready"
+    + " for action."
+    + " <p>When you are finished updating the robot, press the Back button to"
+    + " continue where you left off.";
 
   bootbox.dialog({
     title: "<h3 class='text-warning'>Howdy!</h3>",
