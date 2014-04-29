@@ -7,3 +7,17 @@
 body > .container {
   max-width: 50em;
 }
+
+.win-logo {
+  vertical-align: bottom;
+  max-height: 1.3em;
+}
+
+.windows-instructions li {
+  margin: 0.4em 0;
+  list-style: none;
+}
+
+.windows-instructions {
+  padding-left: 1em;
+}
