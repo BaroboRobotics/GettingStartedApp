@@ -1,0 +1,9 @@
+.li-aside {
+  margin: 1em -1.5em;
+  list-style: none;
+  font-style: italic;
+}
+
+body > .container {
+  max-width: 50em;
+}

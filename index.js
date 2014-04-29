@@ -15,7 +15,23 @@ var qs = (function(a) {
 
 var badRobot = qs["badRobot"];
 if (typeof badRobot !== "undefined") {
-  bootbox.alert("Yep, bad robots ahead. You best check on " + badRobot + '.');
+  var message =
+    "It looks like you connected a robot that needs updating. It has the"
+    + " ID <b>" + badRobot.toUpperCase() + "</b> printed on its face, above"
+    + " the 'A' and 'B' buttons. <b>IMG HERE</b>."
+    + " <p>Follow the instructions here to get the little guy ready for"
+    + " action. Don't forget to plug it in with a USB cable!";
+
+  bootbox.dialog({
+    title: "<h3 class='text-warning'>Howdy!</h3>",
+    message: message,
+    buttons: {
+      "OK": {
+        className: "btn-primary",
+      },
+    },
+    onEscape: function () {}, /* Allow escape key */
+  });
 }
 
 });
