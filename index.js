@@ -36,4 +36,12 @@ if (typeof badRobot !== "undefined") {
   });
 }
 
+$(".show-win-7").click(function() {
+  $(".win-7-instructions").toggleClass("hidden");
+  $(".win-8-instructions").addClass("hidden");
+});
+$(".show-win-8").click(function() {
+  $(".win-8-instructions").toggleClass("hidden");
+  $(".win-7-instructions").addClass("hidden");
+});
 });
