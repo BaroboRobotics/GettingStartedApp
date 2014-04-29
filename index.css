@@ -13,11 +13,21 @@ body > .container {
   max-height: 1.3em;
 }
 
+.win-logo.win-8 {
+  position: relative;
+  bottom: 1px;
+}
+
 .windows-instructions li {
-  margin: 0.4em 0;
+  margin: 0.4em 1em 0.4em 0em;
   list-style: none;
+  display: inline-block;
+}
+
+.windows-instructions li:first-child {
+  margin-left: 7em;
 }
 
 .windows-instructions {
-  padding-left: 1em;
+  padding-left: 0em;
 }
