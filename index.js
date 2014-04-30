@@ -16,16 +16,18 @@ var qs = (function(a) {
 var badRobot = qs["badRobot"];
 if (typeof badRobot !== "undefined") {
   var message =
-    "It looks like you connected a robot that needs updating. It has the"
-    + " ID <b>" + badRobot.toUpperCase() + "</b> printed on its face, above"
-    + " the 'A' and 'B' buttons. <b>IMG HERE</b>."
+    "It looks like you connected a robot that needs updating. It has"
+    + " <b>" + badRobot.toUpperCase() + "</b> printed on its face, above"
+    + " the 'A' and 'B' buttons:"
+    + " <div class='popup-robo-image'><span class='popup-robo-id'>"
+    + badRobot.toUpperCase() + "</span></div>"
     + " <p>Follow the instructions on this page to get the little guy ready"
     + " for action."
-    + " <p>When you are finished updating the robot, press the Back button to"
-    + " continue where you left off.";
+    + " <p>When you are finished updating the robot, press the Back button in"
+    + " the toolbar to continue where you left off.";
 
   bootbox.dialog({
-    title: "<h3 class='text-warning'>Howdy!</h3>",
+    title: "<h3 class='text-warning'>Linkbot Update Required!</h3>",
     message: message,
     buttons: {
       "OK": {
