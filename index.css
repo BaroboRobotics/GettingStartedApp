@@ -49,3 +49,11 @@ body > .container {
   color: hsl(185, 5%, 90%);
   font-size: 150%;
 }
+
+dl img {
+  width: 100%;
+}
+
+dd {
+  margin-bottom: 2em;
+}
