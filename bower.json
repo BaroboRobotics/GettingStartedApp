@@ -2,16 +2,15 @@
   "name": "GettingStarted",
   "version": "0.0.0",
   "authors": [
-    "Bryan Richter <bryan@barobo.com>"
+    "Barobo, Inc."
   ],
   "description": "Intro to Linkbot Labs",
   "main": "index.html",
   "license": "MIT",
   "private": true,
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "components"
+    "**/*",
+    "!html/**/*"
   ],
   "dependencies": {
     "bootstrap": "~3.1.1",
