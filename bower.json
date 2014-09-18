@@ -1,20 +1,20 @@
 {
-  "name": "GettingStarted",
+  "name": "LinkbotUpdateApp",
   "version": "0.0.0",
   "authors": [
-    "Bryan Richter <bryan@barobo.com>"
+    "Barobo, Inc."
   ],
-  "description": "Intro to Linkbot Labs",
-  "main": "index.html",
+  "description": "Instructions on updating a linkbot",
+  "main": "html/index.html",
   "license": "MIT",
   "private": true,
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "components"
+    "**/*",
+    "!html/**/*"
   ],
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "~3.1.1",
-    "bootbox": "~4.2.0"
+    "bootbox": "~4.2.0",
+    "linkbot": "BaroboRobotics/linkbotjs#develop"
   }
 }
