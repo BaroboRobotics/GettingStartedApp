@@ -1,11 +1,11 @@
 {
-  "name": "GettingStarted",
+  "name": "LinkbotUpdateApp",
   "version": "0.0.0",
   "authors": [
     "Barobo, Inc."
   ],
-  "description": "Intro to Linkbot Labs",
-  "main": "index.html",
+  "description": "Instructions on updating a linkbot",
+  "main": "html/index.html",
   "license": "MIT",
   "private": true,
   "ignore": [
